@@ -25,16 +25,16 @@ func main() {
 
 	// data siswa
 	var dataSiswa = []Person{
-		{Nama: "Ikhwan", Alamat: "Jl telaga bogor", Pekerjaan: "Mahasiswa", Alasan: "Ingin tahu lebih banyak"},
-		{Nama: "Shalih", Alamat: "Jl perkutut bintaro", Pekerjaan: "Mahasiswa", Alasan: "Supaya jadi programmer handal"},
-		{Nama: "Dimas", Alamat: "Jl Bulak indah jakbar", Pekerjaan: "Mahasiswa", Alasan: "Mau jadi backend engineer"},
-		{Nama: "Ahmad", Alamat: "Jl Paal V Pondok indah", Pekerjaan: "Mahasiswa", Alasan: "Modal buat cari kerja"},
-		{Nama: "Firman", Alamat: "Jl Kasang Ciledug", Pekerjaan: "PNS", Alasan: "Memperdalam ilmu coding"},
-		{Nama: "Rizal", Alamat: "Jl Kumpeh Banten", Pekerjaan: "Mahasiswa", Alasan: "Dapetin skill baru"},
-		{Nama: "Farid", Alamat: "Jl Senopati Jakarta", Pekerjaan: "Pengangguran", Alasan: "Nyari kesibukan"},
-		{Nama: "Fatiya", Alamat: "Jl Kenangan Bandung barat", Pekerjaan: "Mahasiswa", Alasan: "Diajak teman"},
-		{Nama: "Ikhsan", Alamat: "Jl Sudirman", Pekerjaan: "Mahasiswa", Alasan: "Disuruh orang tua"},
-		{Nama: "Farah", Alamat: "Jl Kebangsaan", Pekerjaan: "Freelancer", Alasan: "Dapetin sertifikat"},
+		{Nama: "Ikhwan", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Ingin tahu lebih banyak"},
+		{Nama: "Shalih", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Supaya jadi programmer handal"},
+		{Nama: "Dimas", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Mau jadi backend engineer"},
+		{Nama: "Ahmad", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Modal buat cari kerja"},
+		{Nama: "Firman", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Memperdalam ilmu coding"},
+		{Nama: "Rizal", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Dapetin skill baru"},
+		{Nama: "Farid", Alamat: "Bandung", Pekerjaan: "Pengangguran", Alasan: "Nyari kesibukan"},
+		{Nama: "Fatiya", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Diajak teman"},
+		{Nama: "Ikhsan", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Disuruh orang tua"},
+		{Nama: "Farah", Alamat: "Bandung", Pekerjaan: "Mahasiswa", Alasan: "Dapetin sertifikat"},
 	}
 
 	// check data jika tidak ada
@@ -46,11 +46,11 @@ func main() {
 	}
 }
 
-func showData(siswa Person) {
-	fmt.Println("Nama      : \t", siswa.Nama)
-	fmt.Println("Alamat    : \t", siswa.Alamat)
-	fmt.Println("Pekerjaan : \t", siswa.Pekerjaan)
-	fmt.Println("Alasan    : \t", siswa.Alasan)
+func showData(mahasiswa Person) {
+	fmt.Println("Nama      : \t", mahasiswa.Nama)
+	fmt.Println("Alamat    : \t", mahasiswa.Alamat)
+	fmt.Println("Pekerjaan : \t", mahasiswa.Pekerjaan)
+	fmt.Println("Alasan    : \t", mahasiswa.Alasan)
 }
 
 func showError() {
